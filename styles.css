@@ -1,0 +1,118 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #084e89; /* Eagle Blue */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 78, 137, 0.6); /* Semi-transparent eagle blue */
+    z-index: 1;
+}
+
+.hero .content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #d84315; /* Dark red */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #b13210; /* Slightly darker red */
+}
+
+/* Story Section */
+.story {
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.story-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.story-content .text {
+    flex: 1;
+}
+
+.story-content .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Tokenomics Section */
+.tokenomics {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.tokenomics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tokenomics li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* How to Buy Section */
+.how-to-buy {
+    padding: 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.how-to-buy ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #084e89; /* Eagle Blue */
+    color: #fff;
+    font-size: 14px;
+}
